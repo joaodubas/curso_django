@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 # exercicio_01.py - Primeiro programa
-'''
+
+"""
 Importa o módulo random e sorteia um número inteiro entre 1 e 100
-'''
+"""
+
 import random
 
 numero = random.randint(1, 100) # numero sorteado aleatoriamente
