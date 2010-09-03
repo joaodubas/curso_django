@@ -19,6 +19,8 @@ print '%s para inteiro int("%s", <opcional> base)' % ('123', '123')
 print 'O numero %g e do tipo %s' % (1.5, type(1.5))
 print 'O numero %g e do tipo %s' % (1e-10, type(1e-10))
 print 'O numero %g e do tipo %s (mesmo para numero positivos)' % (1e10, type(1e10))
+print 'O numero %f e do tipo %s' % (1.5678, type(1.5678)) # Fica a dica para formatacao
+print 'O numero %.2f e do tipo %s' % (1.5678, type(1.5678))
 """
 Lembre-se de utilizar a biblioteca decimal em casos onde trabalho com pontos flutuantes
 envolver aplicacoes financeiras ou cientificas, uma vez que a biblioteca padrao possui
